@@ -22,3 +22,33 @@ Check the result: ls -l xfusioncorp.sh
 image
 
 In this case, the owner has read and execute permissions, while the group and other users have read and execute permissions as well. This means that all users (owner, group, and others) can read and execute the file.
+
+---------------------------------------------------------------
+/tmp :
+--------
+
+The /tmp directory in Linux/Unix systems is used as a temporary storage location for files that are needed only for a short period of time.
+
+🔹 Key Points about /tmp:
+Temporary Files – Applications and users store temporary files here during program execution or installations.
+
+Accessible to All Users – All users can write to /tmp, but each file is usually protected by file permissions.
+
+Automatically Cleaned – Many Linux distributions automatically clear /tmp:
+
+On reboot (commonly).
+
+After files have not been accessed for a certain period (configured by system policies).
+
+No Need for Manual Cleanup – The system manages it, but you can manually remove files if needed.
+
+Mount Options – Often mounted with special options (like noexec, nodev) for security.
+
+✅ Example Uses
+Programs like browsers (Chrome, Firefox) store cache files here temporarily.
+
+During software installation, temporary installation files may be placed in /tmp.
+
+When you extract a .tar.gz or create temporary sockets, they may reside in /tmp.
+
+💡 In short: /tmp is a scratchpad area for temporary data that doesn't need to persist.
