@@ -20,7 +20,7 @@ SOLUTION
 
 4. sudo setfacl -m u:yousuf:--- /etc/hosts
 
-5. sudo setfacl -m u:eric:r /etc/host
+5. sudo setfacl -m u:eric:r /etc/hosts
 
 ![alt text](image.png)
 
