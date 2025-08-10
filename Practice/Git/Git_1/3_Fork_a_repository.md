@@ -1,5 +1,6 @@
 Instructions
 
+<!-- sw -->
 There is a Git server used by the Nautilus project teams. Recently a new developer Jonjoined the team and needs to start working on a project. To do so, he needs to fork an existing Git repository. Below you can find more details:
 
 Click on the Gitea UI button on the top bar. You should be able to access the Gitea page.
