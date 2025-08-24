@@ -33,3 +33,5 @@ To verify the permissions of the directory: stat -c "%a %n" /sysops/data
 This command will display the permissions of the /sysops/data directory in numeric format. The expected permissions should be 770, indicating read, write, and execute permissions for the user and group owners, and no access for others.
 
 image
+
+<!-- test -->
